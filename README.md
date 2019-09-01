@@ -9,7 +9,7 @@ Test Cases proposed for Automation:
 4. Delete the newly created id's as in above case and validate whether they are deleted in the API response
 
 Setup and Execution Instructions:
--> It is a Maven project, all libraries/dependencies required to run the test is specified in pom.xml file
--> I have implemented Java, Rest Assured, JUnit and Cucumber to achieve this automation
--> To run the test, please run the TestRunner class which is in the path - src/test/java/steps/TestRunner.java
--> The test execution result can be viewed as an html file from path - output/cucumber-pretty/index.html
+1. It is a Maven project, all libraries/dependencies required to run the test is specified in pom.xml file
+2. I have implemented Java, Rest Assured, JUnit and Cucumber to achieve this automation
+3. To run the test, please run the TestRunner class which is in the path - src/test/java/steps/TestRunner.java
+4. The test execution result can be viewed as an html file from path - output/cucumber-pretty/index.html
