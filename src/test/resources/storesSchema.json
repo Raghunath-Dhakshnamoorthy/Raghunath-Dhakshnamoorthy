@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "address2": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "zip": {
+          "type": "string"
+        },
+        "lat": {
+          "type": "integer"
+        },
+        "lng": {
+          "type": "integer"
+        },
+        "hours": {
+          "type": "string"
+        },
+        "services": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "address",
+        "address2",
+        "city",
+        "state",
+        "zip",
+        "lat",
+        "lng",
+        "hours",
+        "services"
+      ]
+    }
+  ]
+}
