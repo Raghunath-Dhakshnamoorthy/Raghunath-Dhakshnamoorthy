@@ -2,6 +2,8 @@ package utils;
 
 public class CommonUtils {
 
+    //The data to be provided in the body of the post request
+
     public static String productRequestBody = "{\n" +
             "\t\"name\": \"New Product\",\n" +
             "\t\"type\": \"Hard Good\",\n" +

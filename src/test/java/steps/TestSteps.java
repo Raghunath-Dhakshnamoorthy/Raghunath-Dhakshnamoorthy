@@ -15,9 +15,12 @@ import static org.junit.Assert.assertEquals;
 public class TestSteps {
 
     public static String newlyCreatedId;
-
     public static HashMap<String, String> newDataMap = new LinkedHashMap<String, String>();
 
+    /**
+     * This method is used to create data in the API by using POST request
+     * @param endpoint - represents the endpoint in Best Buy API Playground
+     */
     public static void createNewDataInAPI(String endpoint){
 
         String requestBody = null;
@@ -53,10 +56,15 @@ public class TestSteps {
             newId = jsonObject.getInt("id");
             newlyCreatedId = Integer.toString(newId);
         }
+        //Saves the newly created ID to a Map which would be used for other actions
         if (!newDataMap.containsKey(endpoint))
             newDataMap.put(endpoint, newlyCreatedId);
     }
 
+    /**
+     * This method is used to delete data from API response by using DELETE request
+     * @param endpoint - represents the endpoint in Best Buy API Playground
+     */
     public static void deleteDataFromAPI(String endpoint){
 
         String deleteId = newDataMap.get(endpoint);
