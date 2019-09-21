@@ -1,4 +1,4 @@
-Task 1: Test Cases for Monefy App
+Task 1: Manual Test Cases for Monefy App
 
 New Installation:
 Scenario: Whenever the app is installed in a device, below cases should be verified
