@@ -1,5 +1,4 @@
 # Raghunath-Dhakshnamoorthy
-N26 Home Challenge
 API Automation Cases for Best Buy API Playground
 
 Test Cases proposed for Automation:
